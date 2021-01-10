@@ -67,7 +67,7 @@ void merge(int* array, size_t p, size_t q, size_t r){
 
 	int leftI = 0, rightI = 0;
 	int size;
-	for(int i = p, size = r - p + 1; i < size; ++i ){
+	for(int i = p, size = r - p + 1;  leftI + rightI < size; ++i ){
 		if(left[leftI] <= right[rightI]){
 			array[i] = left[leftI];
 			++leftI;
