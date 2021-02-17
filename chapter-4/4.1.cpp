@@ -40,6 +40,7 @@ void findMaxSubArray(const int *array, const unsigned length){
         lowMax << " and a high-max of " << highMax << " with  the sum " << max << "\n";
 }
 
+/*
 int main() {
     constexpr int SIZE = 4;
     int array1[] = {1, 2, 3, -5};
@@ -52,3 +53,5 @@ int main() {
     findMaxSubArray(array3, SIZE);
     findMaxSubArray(array4, SIZE);
 }
+
+*/
